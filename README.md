@@ -3,7 +3,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Labirintas
+# EDUHAUS
 
 _website design project_
 
@@ -15,13 +15,16 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://https://github.com/GiedreKite/eduhaus/
 
-Design:
+Design: https://dribbble.com/shots/14735947--Eduhouse-Education-Management-Dashboard-Design/attachments/6437950?mode=media
 
 ## 🎯 Project features/goals
 
 - Github pages
-- basic HTML elements/tags
-- basic inline-CSS rules
+- CSS files
+- CSS grid
+- CSS flex
+- SVG images
+- icons (FontAwesome, )
 - **NO** responsive design
 
 ## 🧰 Getting Started
@@ -67,7 +70,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Giedre: [Github]((https://github.com/GiedreKite)
+Giedre: [Github](https://github.com/GiedreKite)
 
 ## ⚠️ License
 

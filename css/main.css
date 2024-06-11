@@ -1,0 +1,46 @@
+* { 
+    box-sizing: border-box
+}
+body {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+aside {
+    height: 500px;
+    float: left;
+    background-color: blanchedalmond;
+    width: 200px;
+    padding: 20px;
+    border: 20px solid red;
+}
+
+main, div {
+    background-color: aqua;
+    width: calc((100% - 200px) / 2);
+    float: left;
+    height: 500px;
+}
+
+div {
+    background-color: palegreen;
+}
+
+p {
+    background-color: brown;
+    border:1px solid;
+
+}
+
+p:first-child {
+    background-color: blue;
+}
+
+p:last-child {
+    background-color: blueviolet;
+}
+
+p:nth-child(3) {
+    background-color: bisque;
+}
