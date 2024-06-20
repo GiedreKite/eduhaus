@@ -14,7 +14,7 @@
 
 }
 .form > input {
-width: 300px;
+width: 365px;
 height: 50px;
 line-height: 20px;
 padding: 15px 20px 15px 60px;
@@ -22,19 +22,27 @@ font-size: 20px;
 border: none;
 background-color: lightgray;
 border-radius: 25px;
-overflow: hidden;
 
+
+}
+
+.form > .fa {
+    font-size: 24px;
+    line-height: 30px;
+    color: #777;
+    position: absolute;
+    top: 10px;
+    left: 15px;
 }
 
 .user-block {
     display: flex;
     align-items: center; 
-    gap: 15px;
-    position: relative;
-
+    gap: 30px;
 }
 .notifications {
-
+    font-size: 30px;
+    color: #333;
     position: relative ;
 }
 
@@ -49,18 +57,10 @@ overflow: hidden;
     background-color: orange;
     border-radius: 50%;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 3px;
 }
 
-.form >.fa {
-    font-size: 24px;
-    line-height: 30px;
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    color: gray;
-}
 
 
 
