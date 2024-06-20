@@ -1,0 +1,38 @@
+.content .course-list {
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+
+}
+.course-list > .course {
+    border: 5px solid red;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px 30px;
+    background-color: pink;
+    border-radius: 30px;
+
+
+}
+
+.course > .details {
+    
+}
+
+.course > .date {
+
+}
+
+.progress-bar .progress {
+    height: 4px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 2px;
+}
+.progress-bar .bar {
+    width: 40%;
+}
+.progress-bar .bar::after {}
+.progress-bar .values {}
+.progress-bar .title {}
+.progress-bar .number {}
