@@ -12,11 +12,11 @@ body {
 main {
     display: grid;
     align-items: start;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    'header header header'
-    'progress progress subscription'
-    'popular mentors mentors';
+        'header header header header'
+        'progress progress progress subscription'
+        'popular mentors mentors mentors';
     background-color: white;
     align-content: start;
     padding: 20px 30px;
@@ -41,7 +41,7 @@ main {
 
 .block {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     gap: 20px;
 }
 
