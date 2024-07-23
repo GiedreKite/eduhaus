@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/aside.css">
     <link rel="stylesheet" href="./css/heder.css">
     <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./css/subscription.css">
+    
 </head>
 
 <body>
@@ -56,12 +58,12 @@
                 <div class="buble"></div>
             </i>
                 
-            <img class="avatar" src="./image/369971881_6987673637909558_3039594729432236884_n.jpg" alt="">
+            <img class="avatar" src="./img/369971881_6987673637909558_3039594729432236884_n.jpg" alt="">
             
         </div>
 
-     </header>
-     
+    </header>
+    
     <section class="block course-progress">
         <h2 class="title">Course in progress</h2>
         <a class="link" href="#">View all</a>
@@ -69,14 +71,36 @@
             <article class="course violet">
                 <div class="details">
                     <div class="date">Dev, 15, 2020</div>
-                    <img class="icon" src="./image/course-1.png" alt="Course app design icon">
+                    <img class="icon" src="./img/course-1.png" alt="Course app design icon">
                 </div>
                 <h3 class="title">App design</h3>
                 <p class="learn">Lorem ipsum dolor sit amet.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio! lorem</p>
                 <div class="progress-bar">
                     <div class="progress">
-                        <div class="bar bar-20"></div>
+                        <div class="bar" style="width: 50%;">
+                            <div class="value"></div>
+                        </div>
+                    </div>
+                    <div class="values">
+                        <div>Progress</div>
+                        <div>50%</div>
+                    </div>
+                </div>
+            </article>
+            <article class="course orange">
+                <div class="details">
+                    <div class="date">Dev, 15, 2020</div>
+                    <img class="icon" src="./img/course-1.png" alt="Course app design icon">
+                </div>
+                <h3 class="title">App design</h3>
+                <p class="learn">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio!</p>
+                <div class="progress-bar">
+                    <div class="progress">
+                        <div class="bar" style="width: 20%;">
+                            <div class="value"></div>
+                        </div>
                     </div>
                     <div class="values">
                         <div>Progress</div>
@@ -84,47 +108,39 @@
                     </div>
                 </div>
             </article>
-        <article class="course orange">
-            <div class="details">
-                <div class="date">Dev, 15, 2020</div>
-                <img class="icon" src="./image/course-1.png" alt="Course app design icon">
-            </div>
-            <h3 class="title">App design</h3>
-            <p class="learn">Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio!</p>
-            <div class="progress-bar" style="width: 77;>
-                <div class="progress">
-                    <div class="bar bar-50"></div>
+            <article class="course teal">
+                <div class="details">
+                    <div class="date">Dev, 15, 2020</div>
+                    <img class="icon" src="./img/course-1.png" alt="Course app design icon">
                 </div>
-                <div class="values">
-                    <div>Progress</div>
-                    <div>50%</div>
+                <h3 class="title">App design</h3>
+                <p class="learn">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio!</p>
+                <div class="progress-bar">
+                    <div class="progress">
+                        <div class="bar" style="width: 90%;">
+                            <div class="value"></div>
+                        </div>
+                    </div>
+                    <div class="values">
+                        <div>Progress</div>
+                        <div>90%</div>
+                    </div>
                 </div>
-            </div>
-        </article>
-        <article class="course teal">
-            <div class="details">
-                <div class="date">Dev, 15, 2020</div>
-                <img class="icon" src="./image/course-1.png"" alt="Course app design icon">
-            </div>
-            <h3 class="title">App design</h3>
-            <p class="learn">Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio!</p>
-            <div class="progress-bar">
-                <div class="progress">
-                    <div class="bar bar-90"></div>
-            </div>
-            <div class="values">
-                <div>Progress</div>
-                <div>90%</div>
-            </div>
-            </div>
             </article>
-            </div>
-            </section>
+        </div>
+    </section>
+
         
         <section class="block subscription">
-            <div class="content">CONTENT</div>
+           
+            <div class="content">
+                <img src="./img/pig.png" alt="Kiaule taupykle">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a class="geltona-knopke" href="#">Upgrade to pro</a>
+
+            </div>
+            
         </section>
 
         <section class="block block-bg popular-categories">
@@ -135,12 +151,99 @@
         <section style="background-color: #E6F5FA;" class="block block-bg top-mentors">
             <h2 class="title">Top mentors</h2>
             <a class="link" href="#">View all</a>
-            <div class="content">CONTENT</div>
+            <table class="content">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>User</td>
+                        <td>Profesion</td>
+                        <td>Course</td>
+                        <td>Followers</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div>
+                                <img src="#" alt="Name Surname">
+                                Vardenis Pavardenis
+                            </div>
+                        </td>
+                        <td>Profesija</td>
+                        <td>18 courses</td>
+                        <td>1000</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div>
+                                <img src="#" alt="Name Surname">
+                                Vardenis Pavardenis
+                            </div>
+                        </td>
+                        <td>Profesija</td>
+                        <td>18 courses</td>
+                        <td>1000</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div>
+                                <img src="#" alt="Name Surname">
+                                Vardenis Pavardenis
+                            </div>
+                        </td>
+                        <td>Profesija</td>
+                        <td>18 courses</td>
+                        <td>1000</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div>
+                                <img src="#" alt="Name Surname">
+                                Vardenis Pavardenis
+                            </div>
+                        </td>
+                        <td>Profesija</td>
+                        <td>18 courses</td>
+                        <td>1000</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-
-        <div class="anime">+</div>
-
-    </main>
+        </main>
 
 </body>
 </html>

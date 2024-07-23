@@ -88,46 +88,33 @@
     border-radius: var(--h);
 }
 
-.progress-bar .bar-20 {
-    width: 20%;
+.progress-bar .bar {
+    width: 40%;
     height: 100%;
-    background-color: var(--color1);
     border-radius: inherit;
-    position: relative;
-    animation-duration: 2s;
-    animation-name: loading-20;
-}
-.progress-bar .bar-50 {
-    width: 50%;
-    height: 100%;
-    background-color: var(--color1);
-    border-radius: inherit;
-    position: relative;
-    animation-duration: 2s;
-    animation-name: loading-50;
-}
-.progress-bar .bar-90 {
-    width: 90%;
-    height: 100%;
-    background-color: var(--color1);
-    border-radius: inherit;
-    position: relative;
-    animation-duration: 2s;
-    animation-name: loading-90;
 }
 
+.progress-bar .value {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color1);
+    border-radius: inherit;
+    position: relative;
+    animation-name: loading;
+    animation-duration: 4s;
+}
 
-.progress-bar .bar::after {
+.progress-bar .value::after {
     content: '';
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: #fff;
     border: 5px solid var(--color1);
     border-radius: 50%;
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -5px;
+    right: -5px;
 }
 
 .progress-bar .values {
@@ -136,56 +123,12 @@
     align-items: center;
 }
 
-@keyframes loading-20 {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 20%;
-    }
-}
-@keyframes loading-50 {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 50%;
-    }
-} 
-@keyframes loading-90 {
+@keyframes loading {
     0% {
         width: 0;
     }
 
     100% {
-        width: 90%;
-    }
-}
-
-.anime {
-    position: fixed;
-    z-index: 1;
-    bottom: 40 px;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    right: 40px;
-    animation-name: pomidoras;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    font-size: 50px;
-
-}
-@keyframes pomidoras {
-    0% {height: 100px;
-        line-height: 100px;
-        font-size: 80px;
-        width: 100px;
-    }
-    100% {
-        line-height: 300px;
-        font-size: 200px;
-        width: 300px;
-        height: 300px;
+        width: 100%;
     }
 }

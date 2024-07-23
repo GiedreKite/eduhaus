@@ -15,8 +15,8 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
         'header header header header'
-        'progress progress progress subscription'
-        'popular mentors mentors mentors';
+        'progress progress progress sub'
+        'pop mentors mentors mentors';
     background-color: white;
     align-content: start;
     padding: 20px 30px;
@@ -27,15 +27,15 @@ main {
     grid-area: progress;
 }
 
-.subscription {
-    grid-area: subscription;
+.block.subscription {
+    grid-area: sub;
 }
 
-.popular-categories {
-    grid-area: popular;
+.block.block-bg.popular-categories {
+    grid-area: pop;
 }
 
-.top-mentors {
+.block.block-bg.top-mentors {
     grid-area: mentors;
 }
 
@@ -69,6 +69,92 @@ justify-self: end;
     grid-column: span 2;
 }
 
+table {
 
+}
 
+thead  {
 
+}
+
+thead tr { 
+    background-color: white;
+
+}
+thead th {
+    padding: 1px;
+    font-weight: 600;
+    border-bottom: 0.1rem solid black;
+}
+
+tbody td:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+tbody td:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+tbody {
+
+}
+tbody tr{
+    padding: 2rem;
+}
+tbody td{
+    padding: 1rem;
+
+}
+
+table {
+    border-spacing: 0 1rem;
+}
+
+thead {}
+
+thead tr {}
+
+thead td {
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-bottom: 0.2rem solid black;
+}
+
+tbody {
+    border-spacing: 1rem;
+}
+
+tbody tr {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+tbody td {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+tbody td:first-child {
+    border-radius: 1rem 0 0 1rem;
+}
+
+tbody td:last-child {
+    border-radius: 0 1rem 1rem 0;
+}
+
+tbody td div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+tbody td img {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: red;
+    border-radius: 50%;
+}
